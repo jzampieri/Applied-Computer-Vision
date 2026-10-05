@@ -1,0 +1,28 @@
+# CP5 - Applied Computer Vision 2026
+# Ambiente: Ubuntu 26.04, Python 3.14, CPU-only.
+# Instalar com o indice CPU do PyTorch (ver scripts/setup_env.sh):
+#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+#
+# Wheels cp314 x86_64 confirmados no indice CPU em 2026-10-01.
+torch==2.14.1
+torchvision==0.29.1
+
+# YOLO (deteccao de pessoa + ByteTrack)
+ultralytics==8.4.171
+lap==0.5.13  # solver de associacao do ByteTrack (o ultralytics instala sob demanda)
+
+# U2-Net human segmentation (ONNX)
+onnxruntime==1.30.0
+
+# Video / imagem / numerico
+opencv-python-headless==5.0.0.93
+numpy==2.5.3
+pillow==12.3.0
+
+# Relatorio e paineis
+matplotlib
+reportlab
+
+# Dependencias do pytorchvideo (instalado via git em setup_env.sh, com --no-deps)
+fvcore
+iopath

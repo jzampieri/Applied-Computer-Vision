@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+weights/
+data/videos/raw/
+data/videos/*.mp4
+outputs/

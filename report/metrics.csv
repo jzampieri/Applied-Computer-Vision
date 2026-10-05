@@ -1,0 +1,15 @@
+video,frame,tempo_s,motivo,pessoas,yolo_conf,track_id,iou_frame_anterior,mascara_area_px,fill_ratio,slowfast_top1,slowfast_conf,slowfast_top2,acerto_top1,acao_observada,painel
+archery,45,1.5,início,2,0.8107,1,0.9481,36358,0.4831,archery,1.0,throwing axe,sim,archery,archery_f000045.png
+archery,150,5.0,meio,2,0.8287,1,0.9882,16459,0.2414,archery,1.0,throwing axe,sim,archery,archery_f000150.png
+archery,255,8.5,fim,2,0.8055,2,0.9842,25608,0.0542,archery,1.0,throwing axe,sim,archery,archery_f000255.png
+archery,291,9.7,menor área de máscara,2,0.8407,2,0.9985,3936,0.0658,archery,1.0,golf driving,sim,archery,archery_f000291.png
+pushups,48,1.6,troca de classe (yoga → push up),1,0.9396,1,0.9911,11943,0.3512,push up,0.5687,yoga,sim,push up,pushups_f000048.png
+pushups,54,1.8,início,1,0.932,1,0.9906,12744,0.3712,push up,0.5687,yoga,sim,push up,pushups_f000054.png
+pushups,136,4.53,menor área de máscara,1,0.885,1,0.9828,6799,0.3306,push up,0.9995,exercising with an exercise ball,sim,push up,pushups_f000136.png
+pushups,180,6.0,meio,1,0.9426,1,0.9579,12225,0.2688,push up,1.0,exercising with an exercise ball,sim,push up,pushups_f000180.png
+pushups,306,10.2,fim,1,0.9399,1,0.9998,12230,0.344,push up,0.644,yoga,sim,push up,pushups_f000306.png
+skate,0,0.0,menor área de máscara,4,0.6882,1,,0,0.0,auctioning,0.248,waiting in line,nao,skateboarding,skate_f000000.png
+skate,32,1.07,troca de classe (waiting in line → skateboarding),3,0.7686,22,0.1078,5,0.0004,waiting in line,0.3781,auctioning,nao,skateboarding,skate_f000032.png
+skate,54,1.8,início,7,0.8757,36,0.8528,17,0.0005,waiting in line,0.4499,skateboarding,nao,skateboarding,skate_f000054.png
+skate,180,6.0,meio,3,0.7672,204,0.6476,0,0.0,skateboarding,0.9985,parkour,sim,skateboarding,skate_f000180.png
+skate,306,10.2,fim,4,0.8885,299,0.9101,12870,0.7542,skateboarding,0.8663,waiting in line,sim,skateboarding,skate_f000306.png
